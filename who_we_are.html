@@ -1,0 +1,40 @@
+{% extends 'base_layout.html' %}
+
+{% block content %}
+    {% load static %}
+
+    <br>
+    <div class="container bg-light" style="width:90%; border-radius: 10px; padding: 2%;">
+        <br>
+        <h1 style="text-align: center;">Creators</h1>
+        <hr>
+        <br>
+        <div class="row">
+            <div class="col">
+                <div class="text-center">
+                    <img src="{% static '' %}" alt="varun" style="max-width:100%; min-width: 100%; border-radius: 50%;">
+                    <br><br>
+                    <h2>Jaswanth Chukka</h2>
+                    <h4>CSE Sophomore at IIT Kharagpur</h4>
+                </div>
+            </div>
+            <div class="col">
+                <div class="text-center">
+                    <img src="{% static '' %}" alt="varun" style="max-width:100%; min-width: 100%; border-radius: 50%;">
+                    <br><br>
+                    <h2>Sushanth</h2>
+                    <h4>CSE Sophomore at IIT Kharagpur</h4>
+                </div>
+            </div>
+            <div class="col">
+                <div class="text-center">
+                    <img src="{% static '' %}" alt="varun" style="max-width:100%; min-width: 100%; border-radius: 50%;">
+                    <br><br>
+                    <h2>Sathvik Reddy</h2>
+                    <h4>CSE Sophomore at IIT Kharagpur</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
